@@ -1,0 +1,26 @@
+ h1{ /* box-level */
+    background-color: lightslategray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid rgb(15, 71, 190);
+
+    padding: 10px 10px 10px 10px;
+
+    margin: 20px auto 30px auto;
+
+    outline: 10px dashed red;
+
+
+}
+
+a{  /* inline-level */
+    border-width: 6px;
+    border-style: ridge;
+    border-color: red;
+
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
