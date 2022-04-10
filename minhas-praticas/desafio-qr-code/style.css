@@ -15,7 +15,8 @@
 }
 
 body{
-    background-image: linear-gradient(to top, var(--cor0), var(--cor2) );
+    background-color: #d5e1ef;
+    height: 93vh;
     font-family: 'Outfit', sans-serif; 
 }
 
@@ -46,7 +47,6 @@ main p{
 
 main img{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.400);
-    margin-bottom: 20px;
     width: 300px;
     border-radius: 10px;
 }
