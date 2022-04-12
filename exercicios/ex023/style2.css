@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 caption{
     font-size: 20px;
     font-weight: bold;
@@ -21,9 +22,14 @@ td, th{
     border: 1px solid black;
     padding: 10px;
 }
+
 tfoot{
     background-color: rgb(95, 95, 95);
     color: white;
+}
+
+tbody > tr:nth-child(even){
+    background-color: rgb(156, 156, 156);
 }
 
 .numero{
