@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    max-width: 670px;
+}
+
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 10em;
+    padding-left: 10px;
+}
+.topicos{
+    text-align: center;
+}
