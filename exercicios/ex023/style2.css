@@ -8,9 +8,20 @@ caption{
     padding: 10px;
     background-color: rgb(201, 199, 199);
 }
+thead, tfoot {
+    background-color: rgb(95, 95, 95);
+    color: white;
+}
 
 table{
     width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(95, 95, 95);
 }
 
 thead{
