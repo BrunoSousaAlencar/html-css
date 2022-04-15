@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    font-weight: bolder;
+    padding: 8px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+
+td, th{
+    padding: 8px;
+    border: 2px solid black;
+}
+
+col.cnome{
+    background-color: gray;
+}
+
+col.cgrupo{
+    background-color: rgb(30, 255, 0);
+}
