@@ -20,13 +20,13 @@ body{
 }
 
 h1{
-    font-size: 900;
+    font-size: 25px;
     color: hsl(223, 47%, 23%);
 }
 
 .texto{
     margin: 3px;
-    font-size: 16px;
+    font-size: 15px;
     width: 400;
     
 }
