@@ -97,6 +97,7 @@ button{
     border-radius: 10px;
     color: #ffffff;
     font-family: 'Red Hat Display', sans-serif;
+    box-shadow: 2px 15px 9px rgba(0, 0, 0, 0.212);
 }
 
 .sim:hover{
