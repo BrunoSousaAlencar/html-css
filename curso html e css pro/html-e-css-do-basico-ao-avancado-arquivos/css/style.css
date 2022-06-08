@@ -34,6 +34,11 @@ a:hover{
     width: 100%;
 }
 
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+
 /*HEADER
 -------------------------------*/
 .header{
@@ -135,9 +140,20 @@ a:hover{
 /*BREACKPOINTS MÁXIMOS
 -------------------------------*/
 @media (max-width: 767.9px){
+    /*menu*/
+    .nav-toggle{
+        color: #ffffff;
+    }
+
+    .header .nav{
+        display: none;
+    }
+
+
     .estatisticas{
         flex-direction: column;
     }
+
     .estatisticas-item{
         min-width: 90%;
     }
@@ -169,3 +185,12 @@ a:hover{
         border-right: 1px solid #cccccc;
     }
 }
+
+/*AUXILIARES
+-------------------------------*/
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+.fl-left{float: left;}
+.fl-right{float: right;}
